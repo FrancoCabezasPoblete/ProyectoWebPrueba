@@ -1,9 +1,10 @@
+h1,h2 {
+  font-size: 40px ;
+  font-family : 'Tangerine' , serif ;
+  text-shadow : 2px 2px 2px #aaa ;
+}
+
 div {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:50px;
-}
-h1,h2 {
-  font-family : 'Tangerine' , serif ;
-  font-size: : 48px ;
-  text-shadow : 2px 2px 2px #aaa ;
+  font-size:40px;
 }
