@@ -1,10 +1,6 @@
 body{
   background: linear-gradient(to bottom, #99ffcc, #99ff66);
-<<<<<<< HEAD
   width: 600px; /*Ancho*/
-=======
-  width: 600px;
->>>>>>> c96fa2a9387368d7fc7dae15f0fb73eb86bd3115
   margin: 0 auto;
   padding: 0 20px 20px 20px;
   border: 4px solid black;
@@ -48,10 +44,7 @@ a {
   font-size: 30px;
   letter-spacing: 1px;
   line-height: 2;
-<<<<<<< HEAD
   padding:0px 0px 2px 200px;
-=======
->>>>>>> c96fa2a9387368d7fc7dae15f0fb73eb86bd3115
   }
 img {
   display: block;
