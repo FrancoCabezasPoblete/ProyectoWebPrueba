@@ -5,6 +5,8 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <title>Hola, AMPs</title>
     <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+    <link rel = "stylesheet"
+          href = "https://fonts.googleapis.com/css?family=Tangerine" >
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
      {
@@ -18,33 +20,83 @@
      }
       </script>
       <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link rel = "stylesheet"
-          href = "https://fonts.googleapis.com/css?family=Tangerine" >
+          <style amp-custom>
+  /* Cualquier estilo personalizado va aquí */
+  body {
+    background: linear-gradient(to bottom, #99ffcc, #99ff66);
+    margin: auto;
+    }
+    div{
+
+        text-align: center;
+    }
+    h1{
+      font-family: 'Tangerine', serif;
+      font-size: 70px;
+      text-shadow: 3px 3px 4px #aaa;
+      /*  width: 450px; Ancho */
+      /*background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.1));*/
+      /*linear-gradient= gradiente de color, background puede cambiar el color del fondo */
+      /*padding:2px 6px 2px 80px; Espaciado o relleno,arriba,izquierda,abajo,derecha */
+      }
+      h2{
+        font-family: 'Tangerine', serif;
+        font-size: 50px;
+        text-shadow: 2px 2px 2px #aaa;
+        }
+        h3{
+          font-family: 'Tangerine', serif;
+          font-size: 40px;
+          text-shadow: 2px 2px 2px #aaa;
+          }
+          p{
+            font-family: 'Tangerine', serif;
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 1;
+           }
+          ul,ol{
+            font-family: 'Tangerine', serif;
+            font-size: 30px;
+            border: 2px solid black;  /*Grosor */
+            width: 600px;
+            margin: auto;
+            text-align: left;
+              }
+          a {
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 2;
+            }
+  }
+  amp-img {
+    background-color: gray;
+    border: 1px solid black;
+  }
+</style>
   </head>
   <body>
    <div><h1>Esta sera una gran página!</h1>
-   <img alt="A view of loli"
+   <amp-img alt="A view of loli"
       src="images/loli.jpg"
       width="340"
-      height="340">
+      height="340"></amp-img>
    <h2>Bienvenido a la web movil</h2>
    <h3>¡ Haciendo que la Web sea bacán!</h3>
- </div>
    <p>Esto es un parrafo <strong>recien horneado</strong></p>
-  <div> <p>Esta es mi primera lista <strong>no ordenada</strong></p>
+    </div>
+  <div> <p>Esta es mi primera lista <strong>no ordenada</strong></p> </div>
    <ul>
      <li><strong>cosa2</strong></li>
      <li><strong>cosa1</strong></li>
      <li><strong>cosa3</strong></li>
    </ul>
-   <p>Esta es mi primera lista <strong>ordenada</strong></p>
+   <div><p>Esta es mi primera lista <strong>ordenada</strong></p></div>
    <ol>
      <li><strong>cosa1</strong></li>
      <li><strong>cosa2</strong></li>
      <li><strong>cosa3</strong></li>
    </ol>
- </div>
-   <a href="https://www.youtube.com">Youtube.com</a>
+   <div><a href="https://www.youtube.com">Youtube.com</a></div>
    </body>
 </html>
